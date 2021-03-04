@@ -113,5 +113,18 @@ li a{
       img.img-fluid.limited2{
           height: 12rem;
       }
-
-      .social-section .
+      @media only screen and (max-width: 670px) {
+.socialhandel img{
+    display: block;
+width: 100px;
+}
+.limited{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    
+    
+}
+      }
